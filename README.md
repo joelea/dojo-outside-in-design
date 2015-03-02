@@ -8,6 +8,8 @@ You have been hired by a bank to write their new account software. It requires t
 
 The architect has specified that you must use the public interface already added to the Account class. You may not add, remove or modify any of these method signatures. This does not include the constructor.
 
+## Acceptance Criteria
+
 The acceptance criteria is already in the AcceptanceCriteria class in the form of a test. Your account should print a statement such as:
 
 DATE | AMOUNT | BALANCE  
