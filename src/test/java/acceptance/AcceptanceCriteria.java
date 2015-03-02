@@ -18,10 +18,10 @@ public class AcceptanceCriteria {
         
         account.printStatement();
         
-        verify(console).printLine("DATE | AMOUNT | BALANCE");
-        verify(console).printLine("01/05/2014 | 500 | 1400");
-        verify(console).printLine("02/04/2014 | -100 | 900");
-        verify(console).printLine("01/04/2014 | 1000 | 1000");
+        verify(printer).printLine("DATE | AMOUNT | BALANCE");
+        verify(printer).printLine("01/05/2014 | 500 | 1400");
+        verify(printer).printLine("02/04/2014 | -100 | 900");
+        verify(printer).printLine("01/04/2014 | 1000 | 1000");
 
     }
 }
