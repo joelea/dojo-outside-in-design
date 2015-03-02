@@ -10,7 +10,7 @@ The architect has specified that you must use the public interface already added
 
 The acceptance criteria is already in the AcceptanceCriteria class in the form of a test. Your account should print a statement such as:
 
-DATE | AMOUNT | BALANCE
-01/05/2014 | 500 | 1400
-02/04/2014 | -100 | 900
-01/04/2014 | 1000 | 1000
+DATE | AMOUNT | BALANCE  
+01/05/2014 | 500 | 1400  
+02/04/2014 | -100 | 900  
+01/04/2014 | 1000 | 1000  
