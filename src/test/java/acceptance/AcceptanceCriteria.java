@@ -31,7 +31,7 @@ public class AcceptanceCriteria {
         verify(printer).printLine("01/05/2014 | 500 | 1400");
         verify(printer).printLine("02/04/2014 | -100 | 900");
         verify(printer).printLine("01/04/2014 | 1000 | 1000");
-
+        
     }
 
     private void setToday(String date) {
